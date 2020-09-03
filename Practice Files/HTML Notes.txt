@@ -1,0 +1,77 @@
+HTML Notes
+- Hyper Text Markup Language
+- NOT a programming Language
+- for creatin webpages
+- building block of the web
+
+How it Works
+- We need a browser and a text editor
+- does NOT need a server
+- files must end in .html
+- Runs in browsers
+- index.html is the root/ homepage of website
+
+Tag Syntax
+- element names surrounded by angle brackets
+- normally come in pairs
+- end tag is usually the same but with a forward slash
+- some tags close themselves
+- <h1>About Us</h1>
+- <p>This is a paragraph</p>
+- <br /> self closing tag
+- <br> self close, fine in HTML5
+
+- type a tag, and then press 'tab' and the ending tag will auto-complete :D
+
+HTML5 Page Structure
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</Title>
+  </head>
+  <body>
+    <h1>My First Heading</h1>
+    <p>My First Paragraph</p>
+  </body>
+</html>
+
+Inline vs Block Level Elements
+- Inline Elements
+  - do not start on a new line
+  - take only the necessary width
+- Block Elements
+  - Start on a new line
+  - Take full width available
+Block Level: <div>, <h1>-<h6>, <p>, <form>
+Inline Level: <span>, <img>, <a>, <strong>, <em>,
+
+<a>
+- Links with <a href+"">
+- href has the link
+
+Tag Attributes
+- all tags can have attributes
+- provide info about an element
+- placed within the start tag
+- key/value pairs (id="someId")
+
+Tables
+- Only use for tabular data
+- NOT for layouts
+
+Images
+- <img>
+- There is a resize attribute but its not really recommended
+- Do it in CSS
+- you can wrap an <a> (link) around images too
+
+HTML Semantics Tags
+- <header>
+- <footer>
+- <aside>
+- <main>
+- <article>
+- <nav>
+- <section>
+- <details>
+- html then click 'tab' for a shortcut layouts
