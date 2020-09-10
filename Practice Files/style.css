@@ -183,3 +183,19 @@ a:active{
   top:400px;
   left:0;
 }
+
+.my_list li:first-child{
+  background:red;
+}
+
+.my_list li:nth-child(even){
+  background:orange;
+}
+
+.my_list li:last-child{
+  background:blue;
+}
+
+.my_list li:nth-child(3){
+  background:yellow;
+}
