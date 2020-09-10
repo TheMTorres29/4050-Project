@@ -162,12 +162,15 @@ a:active{
   border: dotted 5px #000;
   margin:20px;
   position:relative;
+  background-image:url('images/winXP.png');
+  background-position:center;
 }
 
 .p-box h1{
   position:absolute;
   top:40px;
   left:30px;
+
 }
 
 .p-box h2{
