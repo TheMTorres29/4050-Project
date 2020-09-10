@@ -1,0 +1,54 @@
+CSS Notes
+- many ways to do the same task
+
+Check Out: flexbox, animation Later!
+
+"Cascading Stylesheets"
+- Not a prog. language
+- used for website layout and design
+- can be extended with Sass/Less
+
+3 Methods for Adding CSS
+- Inline CSS: directly in the html element (NO!)
+- Internal CSS: using <style> tags within a single document
+- External CSS: linking an external .css file (YES!)
+
+CSS Selector
+- a { background-color: yellow; }
+a is the 'Selector'
+background-color is the 'property'
+yellow is the 'value'
+
+Colors in CSS
+- Color names, HTML5 Color names, Hexadecimal, RGB
+- e.g. color: red;
+       color: #00ff00;
+       color: rgb(0,0,255);
+
+- Look up Web Safe Fonts :)
+
+- ID's are to be unique
+- Classes are to be re-used
+
+Box Model
+- Margin is outside
+    top/bottom/left/right margin
+- Padding is inside
+    top/bottom/left/right border
+- e.g. p{
+          margin-top:5px;
+          margin-bottom:5px;
+          margin-right:10px;
+          margin-left:10px;
+        }
+        or
+        p{
+          margin-top:5px 10px 5px 10px; top, right, bottom, left
+        }
+        or
+        p{
+          margin:5px 10px; top/bottom, left/right
+        }
+
+Positioning
+- Static, Relative, Absolute, Fixed, Initial, Inherit

@@ -1,0 +1,156 @@
+/* * means everything */
+/* *{
+  margin:0;
+  padding:0;
+} */
+
+h1{
+  color:green;
+}
+body{
+  background-color:#f4f4f4;
+
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:18px;
+  font-weight:normal;
+  /* same as above
+  font: normal 18px Arial, Helvetica, sans-serif; */
+
+  line-height:1.6em;
+  margin:1;
+}
+
+a{
+  text-decoration:none;
+  color:000;
+}
+
+a:hover{
+  color:red;
+}
+
+a:active{
+  color:green;
+}
+
+.resize {
+  width:200px;
+  height:auto;
+}
+
+.container{
+  /*width:960px; is a popular width  */
+  width:500px;
+  margin:auto;
+}
+
+.button{
+  background-color:#333;
+  color:#fff;
+  padding:10px 15px;
+  border:none;
+}
+
+.button:hover{
+  background:red;
+  color:white;
+}
+
+.clr{
+  clear:both;
+}
+
+.box-1{
+  background-color:#333333;
+  color:#fff;
+
+  border-right:5px red solid;
+  border-left:5px red solid;
+  border-top:5px blue solid;
+  border-bottom:5px blue solid;
+  /* or
+  border:5px red solid;
+  border-width:3px;
+  border-bottom-width:10px;
+  border-top-style:dotted; */
+
+  padding:20px;
+  margin-top:20px;
+}
+
+.box-1 h1{
+  font-family:Arial;
+  font-weight: 800;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.2m;
+  word-spacing: 1em;
+}
+
+.box-2{
+  border:5px dotted #ccc;
+  padding:20px;
+  margin:20px 0;
+}
+
+.categories{
+  border:5px #ccc solid;
+  padding:10px;
+  border-radius:15px;
+}
+
+.categories h2{
+  text-align:center;
+}
+
+.categories ul{
+  padding:10;
+  list-style:none;
+}
+
+.categories li{
+  padding-bottom:6px;
+  border-bottom:dotted 1px #333;
+
+  list-style-image:url('images/check.png');
+}
+
+.my-form{
+  padding:5px;
+}
+
+.my-form .form-group{
+  padding:5px;
+}
+
+.my-form label{
+  display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+  padding:8px;
+  width:100%
+}
+
+.block{
+  float:left;
+  width:50%;
+  border:2px solid #ccc;
+  padding:10px;
+  box-sizing:border-box;
+}
+
+#main-block{
+  float:left;
+  width:70%;
+}
+
+#sidebar{
+  float:right;
+  width:30%;
+  background-color:#333;
+  color:#fff;
+  padding:15px;
+  box-sizing:border-box;
+}
