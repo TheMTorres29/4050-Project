@@ -13,8 +13,17 @@ body{
   overflow:hidden;
 }
 
+.header-img{
+  height: auto;
+  width: auto;
+  max-width: 30px;
+  max-height: 30px;
+  padding-left:0;
+}
+
 #main-header{
   padding:10px;
+  padding-left:200px;
   background-color:#30A9BF;
   color:#fff;
   font-style:italic;
@@ -54,7 +63,7 @@ body{
 }
 
 #showcase{
-  background-image:url('../images/space.jpg');
+  background-image:url('../images/spaceTwinkle.gif');
   background-position:center;
   background-size:1800px;
   min-height:300px;
