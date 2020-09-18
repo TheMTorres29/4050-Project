@@ -1,0 +1,45 @@
+JavaScript Notes
+- high level, interpreted programming language
+- runs on the client/browser as well as on the server (Node.js)
+- conforms to the ECMAScript specifications
+- multi-paradigm, multiple ways to do something
+- programming language of the browser
+- Build very interactable user interfaces with frameworks like React
+
+- semi colons arent mandatory, but should prob use them
+- single or double quotes work
+
+<script></script>
+- put it at the bottom of an HTML file.
+- HOWEVER its recommended to put it in its own .js file
+
+Variables
+- var, let, and const
+- 'var' is not used anymore because it is globally scoped. It can cause issues when being reused
+- 'let' can be reassigned, 'const' cannot
+- use 'const' only if you know you are not going to reassign it
+
+Data Types
+- Strings, Numbers, Boolean, null, undefined, and Symbol
+Strings
+- Concatenation
+    console.log('My name is ' + name + 'and I am ' + age);
+- is OLD way to do it^
+- Now we can do it easier, nicer like this...
+    console.log(`My name is ${name} and I am ${age}`);
+Arrays
+- you can have multiple data types in an Array
+- 'unshift' to add to beginning
+- 'push' to add to the end of the array
+- 'pop' gets rid of the last one
+- if you want to see if something is an array use
+    console.log(Array.isArray(fruits));
+    'fruits' is name of object in this case
+
+todoJSON
+- LEARN ABOUT JSON
+- we can convert into JSON within our script. (code in main.js)
+
+conditionals
+- == checks for the value
+- === checks for value and data type. so 'string 10' cannot be 'int 10'
