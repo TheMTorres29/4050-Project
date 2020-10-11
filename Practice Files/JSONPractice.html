@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JSON Practice</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      /*let companies = `[
+        {
+          "name": "Google",
+          "numberOfEmployees": 100,
+          "ceo": "Mary",
+          "rating": 4.5
+        },
+        {
+          "name": "Apple",
+          "numberOfEmployees": 101,
+          "ceo": "Juan",
+          "rating": 4.7
+        },
+        {
+          "name": "SmallBusiness",
+          "numberOfEmployees": 5,
+          "ceo": null,
+          "rating": 5.0
+        }
+      ]`
+      console.log(JSON.parse(companies)[0].name)*/
+
+      // HTTP Request with JS
+      // this doesnt work here for some reason. it works in index.html though...
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          var response = xhttp.responseText;
+          console.log(response.companies);
+        }
+      };
+      xhttp.open("GET", "companies.json", true);
+      xhttp.send();
+
+    </script>
+  </body>
+</html>

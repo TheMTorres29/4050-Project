@@ -1,0 +1,19 @@
+{
+  "companies": [
+    {
+      "name": "Google",
+      "numberOfEmployees": 100,
+      "ceo": "Mary"
+    },
+    {
+      "name": "Apple",
+      "numberOfEmployees": 101,
+      "ceo": "Juan"
+    },
+    {
+      "name": "SmallBusiness",
+      "numberOfEmployees": 5,
+      "ceo": "Jim"
+    }
+  ]
+}

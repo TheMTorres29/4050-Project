@@ -1,0 +1,26 @@
+JSON Notes
+(JavaScript Object Notation)
+- data representation format
+- commonly used for APIs and Configs
+- Lightweight data-interchange format
+- easy to read and write
+- integrates easily with most languages
+- often used with AJAX
+  - used to send data back and forth between client and server w/o refreshing
+- can be used with most modern languages
+
+JSON Types
+- strings
+  - use double quotes ""
+- numbers
+  - no difference between decimals and floats. all just numbers
+- Booleans
+- null
+- arrays
+- objects
+  - e.g. {"key":"value"} {"age": 30}
+
+Syntax
+- {"key":"value"}
+  - notice the double quotes on strings
+- filetype .json
